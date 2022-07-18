@@ -1,0 +1,135 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: dotted gold 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: black;
+  padding: 50px 0 20px ;
+}
+
+.middle-container {
+  background-color: black;
+}
+
+.calss1 {
+  background-color: black;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+}
+
+h1 {
+  line-height: 2;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  /* 16px = 100% = 1em */
+  /* em -inherited but rem(root em) is not inherited*/
+  color: white;
+  font-family: 'Sacramento', cursive;
+}
+
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px
+}
+
+h3 {
+  color: white;
+  /*  margin: 50px auto 0 auto;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ffont {
+  background-color: black;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 200px;
+}
+
+.pro {
+  border-radius: 300px;
+  /*  background: white;
+  padding: 5px;*/
+  width: 300px;
+  height: 250px;
+}
+
+.img2 {
+  float: right;
+  margin-left: 30px;
+  height: 159px;
+  width: 318px;
+}
+
+.img1 {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #e1d600;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+}
